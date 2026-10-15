@@ -1,0 +1,1080 @@
+{
+  "StudyId": "20261013_180558",
+  "PlotScriptSHA256": "dcecef0ef9246b475d7fe3f44295394929ca641b0abf7a959359d026db91f947",
+  "Style": {
+    "Font": "Arial",
+    "FontSize": 8.5,
+    "TickFontSize": 7.5,
+    "PanelFontSize": 10,
+    "Width": 12.2,
+    "Visible": "off",
+    "LineWidth": 0.75,
+    "TargetLineWidth": 1.5,
+    "AxisLineWidth": 0.5,
+    "PointSize": 2.5,
+    "PNGResolution": 600,
+    "ExportFormats": [
+      "fig",
+      "pdf",
+      "png"
+    ],
+    "Ink": [
+      0.18,
+      0.21,
+      0.25
+    ],
+    "Faint": [
+      0.8,
+      0.83,
+      0.85
+    ],
+    "Colours": [
+      [
+        0.18,
+        0.39,
+        0.63
+      ],
+      [
+        0.8,
+        0.49,
+        0.27
+      ],
+      [
+        0.31,
+        0.6,
+        0.54
+      ],
+      [
+        0.69,
+        0.43,
+        0.49
+      ],
+      [
+        0.54,
+        0.5,
+        0.66
+      ],
+      [
+        0.66,
+        0.6,
+        0.35
+      ],
+      [
+        0.36,
+        0.62,
+        0.72
+      ],
+      [
+        0.38,
+        0.46,
+        0.54
+      ],
+      [
+        0.61,
+        0.43,
+        0.31
+      ],
+      [
+        0.46,
+        0.61,
+        0.4
+      ],
+      [
+        0.64,
+        0.53,
+        0.62
+      ],
+      [
+        0.48,
+        0.54,
+        0.58
+      ]
+    ],
+    "LineStyles": [
+      "-",
+      "--",
+      ":",
+      "-.",
+      "-",
+      "--",
+      ":",
+      "-.",
+      "-",
+      "--",
+      ":",
+      "-."
+    ],
+    "ZoneFill": [
+      0.96,
+      0.92,
+      0.88
+    ],
+    "ZoneEdge": [
+      0.77,
+      0.66,
+      0.56
+    ],
+    "HeatAnchors": [
+      [
+        0.97,
+        0.98,
+        0.97
+      ],
+      [
+        0.77,
+        0.88,
+        0.87
+      ],
+      [
+        0.46,
+        0.7,
+        0.73
+      ],
+      [
+        0.18,
+        0.39,
+        0.63
+      ]
+    ],
+    "RankAnchors": [
+      [
+        0.18,
+        0.39,
+        0.63
+      ],
+      [
+        0.46,
+        0.7,
+        0.73
+      ],
+      [
+        0.77,
+        0.88,
+        0.87
+      ],
+      [
+        0.97,
+        0.98,
+        0.97
+      ]
+    ]
+  },
+  "Sources": [
+    {
+      "CaseId": "baseline",
+      "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+      "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+      "InputFiles": [
+        "Application_Experiment/Results/baseline/all_runs.mat",
+        "Application_Experiment/Results/baseline/analysis.mat",
+        "Application_Experiment/Results/baseline/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+        "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+        "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+      ],
+      "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "equal_weights",
+      "PlotDataFile": "Application_Experiment/Results/equal_weights/plot_data.mat",
+      "PlotDataSHA256": "a0dfb560719b6f474120fcedb02942092cc0b53841e0d8964c8f1467c8116c8f",
+      "InputFiles": [
+        "Application_Experiment/Results/equal_weights/all_runs.mat",
+        "Application_Experiment/Results/equal_weights/analysis.mat",
+        "Application_Experiment/Results/equal_weights/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "b365f2f83571d91e10e97b5e6d40fe9fbf5595bfa892e7ea9e25196aadf5bf2c",
+        "e3d7d18a6eede66df97effd4f0338cdf7f93dea7e36128650e8d8bdbf1b240cf",
+        "f2d959557219bc2b9a9c2e6980e8f9d0167149ca3ba2632ea370fc612e5ba4dd"
+      ],
+      "Token": "d83b52a5c13111107d70e8e5d1a11edff28df2bce4e44c117592264370e2b7fd",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "energy_weights",
+      "PlotDataFile": "Application_Experiment/Results/energy_weights/plot_data.mat",
+      "PlotDataSHA256": "00e43260fa35e7847855e93e0bab5f84a28eb7c06423d885401e9b7edbf68fc2",
+      "InputFiles": [
+        "Application_Experiment/Results/energy_weights/all_runs.mat",
+        "Application_Experiment/Results/energy_weights/analysis.mat",
+        "Application_Experiment/Results/energy_weights/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "78d2315086fe919e6ac60c88fdaeff1cfac43f26845902e680ff819f08e619f9",
+        "9b473f4d49869abe7ae75c3f250ed2bf1cdcdb0014731d71b9e03f514c8ce0c0",
+        "329c9dd7444f952ded9441ae26cc6cf14661efb5c045262bb0c3cf3e98d0e232"
+      ],
+      "Token": "f98e0f8ea0a70d1d553e106431a54e3b7283acd5b1756eed816648bd70d98261",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "risk_weights",
+      "PlotDataFile": "Application_Experiment/Results/risk_weights/plot_data.mat",
+      "PlotDataSHA256": "bbe3c07c4c949585086017a493fa8efbd14364e2ac62e1d0469f175618a6f15b",
+      "InputFiles": [
+        "Application_Experiment/Results/risk_weights/all_runs.mat",
+        "Application_Experiment/Results/risk_weights/analysis.mat",
+        "Application_Experiment/Results/risk_weights/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "3d982baaf583650c116102bcb2d6b83d256a2d1c3c7711ca180119b26ed27a13",
+        "00556c2e33943ff18f09ab7b384d6507d6cdaa357c17a9f49be03b19be4c15c9",
+        "bc14c6c33e609459c9cb73bfce879cf0b15418ffbbdb8b653fcb338f8bd1d4ca"
+      ],
+      "Token": "a3b93cbf7eab6439b4f38902a424f6ad69f540565757aa12e92686fed2151951",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "penalty_low",
+      "PlotDataFile": "Application_Experiment/Results/penalty_low/plot_data.mat",
+      "PlotDataSHA256": "344e7e8d3c93ddacfca930b99280c5e8b17f2fcb80fabc8956216b66beb69eba",
+      "InputFiles": [
+        "Application_Experiment/Results/penalty_low/all_runs.mat",
+        "Application_Experiment/Results/penalty_low/analysis.mat",
+        "Application_Experiment/Results/penalty_low/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "c17bdd05bd4aec8ec9feda5ebff2eb7d4544ecd021f372a53de33473d0c64603",
+        "195b665a321dc11a85e367ad566c39553b99c6be4d80dddc5705dd69bc59c50a",
+        "3ce5ccf74a8827940201b731898b5d3f80522a9caf9e6ab2d06bf30d04364241"
+      ],
+      "Token": "662992690676c8daf988fd0ed9a6c085f3e5ffc489a7ef73ba56211bc99ce166",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "penalty_high",
+      "PlotDataFile": "Application_Experiment/Results/penalty_high/plot_data.mat",
+      "PlotDataSHA256": "2bc790caa107f06a1ad6faa203eb100c6fcd005dbc0745421a496a1418f08839",
+      "InputFiles": [
+        "Application_Experiment/Results/penalty_high/all_runs.mat",
+        "Application_Experiment/Results/penalty_high/analysis.mat",
+        "Application_Experiment/Results/penalty_high/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "94e76d8d9262dd2f548bf610f28ed129d1511e4ebfcec48b53703eb3373efab4",
+        "d75fd490310ec50d2f8f32d413263a9341020842990f31c95a9f11d3629225b7",
+        "a2259f2809be254ed9ff124b4bd88e42868de8248ac63ba0a8c5baf09283b13e"
+      ],
+      "Token": "2e627aec2e08aa840e5b427116c1ea84f712fac6c5631acbf470aba3f771ba8c",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    },
+    {
+      "CaseId": "measured_mobility",
+      "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+      "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+      "InputFiles": [
+        "Application_Experiment/Results/measured_mobility/all_runs.mat",
+        "Application_Experiment/Results/measured_mobility/analysis.mat",
+        "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+      ],
+      "InputSHA256": [
+        "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+        "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+        "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+      ],
+      "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+      "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+    }
+  ],
+  "ReadOnlyInputFiles": [
+    "Application_Experiment/Results/STUDY.mat",
+    "Application_Experiment/Results/baseline/plot_data.mat",
+    "Application_Experiment/Results/baseline/all_runs.mat",
+    "Application_Experiment/Results/baseline/analysis.mat",
+    "Application_Experiment/Results/baseline/fixed_instance.mat",
+    "Application_Experiment/Results/equal_weights/plot_data.mat",
+    "Application_Experiment/Results/equal_weights/all_runs.mat",
+    "Application_Experiment/Results/equal_weights/analysis.mat",
+    "Application_Experiment/Results/equal_weights/fixed_instance.mat",
+    "Application_Experiment/Results/energy_weights/plot_data.mat",
+    "Application_Experiment/Results/energy_weights/all_runs.mat",
+    "Application_Experiment/Results/energy_weights/analysis.mat",
+    "Application_Experiment/Results/energy_weights/fixed_instance.mat",
+    "Application_Experiment/Results/risk_weights/plot_data.mat",
+    "Application_Experiment/Results/risk_weights/all_runs.mat",
+    "Application_Experiment/Results/risk_weights/analysis.mat",
+    "Application_Experiment/Results/risk_weights/fixed_instance.mat",
+    "Application_Experiment/Results/penalty_low/plot_data.mat",
+    "Application_Experiment/Results/penalty_low/all_runs.mat",
+    "Application_Experiment/Results/penalty_low/analysis.mat",
+    "Application_Experiment/Results/penalty_low/fixed_instance.mat",
+    "Application_Experiment/Results/penalty_high/plot_data.mat",
+    "Application_Experiment/Results/penalty_high/all_runs.mat",
+    "Application_Experiment/Results/penalty_high/analysis.mat",
+    "Application_Experiment/Results/penalty_high/fixed_instance.mat",
+    "Application_Experiment/Results/measured_mobility/plot_data.mat",
+    "Application_Experiment/Results/measured_mobility/all_runs.mat",
+    "Application_Experiment/Results/measured_mobility/analysis.mat",
+    "Application_Experiment/Results/measured_mobility/fixed_instance.mat",
+    "Application_Experiment/Results/GLOBAL_WILCOXON_HOLM.csv",
+    "Application_Experiment/Results/serial_timing/20261013_230356_661/serial_timing.mat"
+  ],
+  "InputSHA256": [
+    "4fce4e4ad2553824e70d2c3ee7c0b05c153465bc51fc6923e1331970afc9e8cf",
+    "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+    "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+    "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+    "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0",
+    "a0dfb560719b6f474120fcedb02942092cc0b53841e0d8964c8f1467c8116c8f",
+    "b365f2f83571d91e10e97b5e6d40fe9fbf5595bfa892e7ea9e25196aadf5bf2c",
+    "e3d7d18a6eede66df97effd4f0338cdf7f93dea7e36128650e8d8bdbf1b240cf",
+    "f2d959557219bc2b9a9c2e6980e8f9d0167149ca3ba2632ea370fc612e5ba4dd",
+    "00e43260fa35e7847855e93e0bab5f84a28eb7c06423d885401e9b7edbf68fc2",
+    "78d2315086fe919e6ac60c88fdaeff1cfac43f26845902e680ff819f08e619f9",
+    "9b473f4d49869abe7ae75c3f250ed2bf1cdcdb0014731d71b9e03f514c8ce0c0",
+    "329c9dd7444f952ded9441ae26cc6cf14661efb5c045262bb0c3cf3e98d0e232",
+    "bbe3c07c4c949585086017a493fa8efbd14364e2ac62e1d0469f175618a6f15b",
+    "3d982baaf583650c116102bcb2d6b83d256a2d1c3c7711ca180119b26ed27a13",
+    "00556c2e33943ff18f09ab7b384d6507d6cdaa357c17a9f49be03b19be4c15c9",
+    "bc14c6c33e609459c9cb73bfce879cf0b15418ffbbdb8b653fcb338f8bd1d4ca",
+    "344e7e8d3c93ddacfca930b99280c5e8b17f2fcb80fabc8956216b66beb69eba",
+    "c17bdd05bd4aec8ec9feda5ebff2eb7d4544ecd021f372a53de33473d0c64603",
+    "195b665a321dc11a85e367ad566c39553b99c6be4d80dddc5705dd69bc59c50a",
+    "3ce5ccf74a8827940201b731898b5d3f80522a9caf9e6ab2d06bf30d04364241",
+    "2bc790caa107f06a1ad6faa203eb100c6fcd005dbc0745421a496a1418f08839",
+    "94e76d8d9262dd2f548bf610f28ed129d1511e4ebfcec48b53703eb3373efab4",
+    "d75fd490310ec50d2f8f32d413263a9341020842990f31c95a9f11d3629225b7",
+    "a2259f2809be254ed9ff124b4bd88e42868de8248ac63ba0a8c5baf09283b13e",
+    "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+    "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+    "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+    "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000",
+    "66111c8e34e49e22aa268819f2c58cb2cd16d22474e0a2b40b0bd88b414c1ad8",
+    "7b080eb2173c7bf6b8944b941a69c6a72119ace2effd392f46ab8b52c6d32447"
+  ],
+  "Figures": [
+    {
+      "Name": "01_performance",
+      "Caption": "Baseline, population input 40, 750 complete generations and 30 shared optimizer seeds. (a) Across-seed median native penalized training objective on a log axis; the DFPQNO band is the nearest-rank interquartile range. All twelve methods are drawn; ten secondary methods are grey. (b) All 30 native DFPQNO and AROA policies on the original and additional independent 100-scenario pools (circles and squares). Thin whiskers span min--max, thick segments span IQR and centre ticks mark medians. Scenarios are not treated as independent optimizer replicates. Observer policies are never substituted.",
+      "AltText": "Baseline convergence and two-pool native policy distributions; AROA is close to DFPQNO.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        6.6
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/01_performance.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/01_performance.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/01_performance.png"
+      ],
+      "FileSHA256": [
+        "18bd2029df39b2fa10464e006659f855456e00a198fb6e2ca31ef7b157b1e9aa",
+        "6b85dafbe56ff9bddd4a07e0cf6ad3387dfc5d0872ecc0f85e5d649d1066092c",
+        "45ee63f7a9ca4d35500bd4c0edda5b40b45564669c79602db2ca319a1a9620c1"
+      ],
+      "EditableAxes": 2,
+      "EditableLines": 30,
+      "EditableImages": 0
+    },
+    {
+      "Name": "02_metric_tradeoffs",
+      "Caption": "Baseline original-validation components for the same 30 shared-seed native DFPQNO and AROA policies. Grey lines connect matched seeds; points include every run and black ticks show means. Energy, mean/P95 latency and CVaR overrun are minimized; completion and fairness are maximized. Displayed vertical ranges are not all zero-based. AROA has slightly better mean P95 latency, completion, fairness and CVaR, while DFPQNO improves energy, mean latency and the composite objective. No component significance is asserted.",
+      "AltText": "Six paired distributions show energy and mean-latency gains with small tradeoffs in four other components.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        8.4
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/02_metric_tradeoffs.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/02_metric_tradeoffs.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/02_metric_tradeoffs.png"
+      ],
+      "FileSHA256": [
+        "b1b6e3738fb72c9e90f6aa6a5682e2c31f527a383d4ea926d1a2834ac4a00d26",
+        "850ce3543297a60a3059a87a4acda529722b83d27408dc2a213253af6c87d102",
+        "683de5216925929c5733cb0fedbdb99e462bfee49888a75b8cb9a3ba8c245ef3"
+      ],
+      "EditableAxes": 6,
+      "EditableLines": 204,
+      "EditableImages": 0
+    },
+    {
+      "Name": "03_trajectories",
+      "Caption": "UAV polylines of the preselected lower-median original-native-validation run for each method: DFPQNO blue solid, AROA orange dashed. Grey traces show eight users; shaded circles are model exclusion zones, and an open circle/square marks prescribed start/finish. Coordinates are in kilometres with equal axis scaling and identical 2 km square bounds. Left: synthetic user traces. Right: interpolated pNEUMA ground-vehicle traces. Only ground mobility is measured; UAV flight, tasks, channels, energy and safety are simulated. Representatives are not selected on the additional independent pool. Model paths do not establish flight-test safety or robustness to navigation errors.",
+      "AltText": "Two blue and dashed orange UAV path comparisons among grey user traces and three shaded model disks.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "measured_mobility",
+          "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+          "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+          "InputFiles": [
+            "Application_Experiment/Results/measured_mobility/all_runs.mat",
+            "Application_Experiment/Results/measured_mobility/analysis.mat",
+            "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+            "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+            "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+          ],
+          "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        6.800000000000001
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/03_trajectories.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/03_trajectories.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/03_trajectories.png"
+      ],
+      "FileSHA256": [
+        "630563adbb6b62fc3aaac13b17d9edbc05325ce17dc6b7882023d0e5a07b3ad3",
+        "98aa50c7af5e66b389c309b0c4f5c959d425321901ad111ec1f66874151db71c",
+        "4eeb2e7899ceebd7c69f33b62334f6903de728efdffa3ca18569f1b85c812b4e"
+      ],
+      "EditableAxes": 2,
+      "EditableLines": 40,
+      "EditableImages": 0
+    },
+    {
+      "Name": "04_resource_allocation",
+      "Caption": "Recorded-mobility DFPQNO allocations for the representative in Fig. 03b (run 13, seed 24063013). Each cell is one of eight users at one of sixteen original samples (0--150 s); no smoothing is applied. Offload and power scales use model bounds. Bandwidth/CPU scales start at zero and end at the largest displayed allocation, not total resource capacity. Values are decoded saved policies, not UAV measurements.",
+      "AltText": "Four user-by-time heatmaps of offloading, power, bandwidth and edge CPU.",
+      "Sources": [
+        {
+          "CaseId": "measured_mobility",
+          "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+          "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+          "InputFiles": [
+            "Application_Experiment/Results/measured_mobility/all_runs.mat",
+            "Application_Experiment/Results/measured_mobility/analysis.mat",
+            "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+            "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+            "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+          ],
+          "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        7.800000000000001
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/04_resource_allocation.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/04_resource_allocation.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/04_resource_allocation.png"
+      ],
+      "FileSHA256": [
+        "9d28dd04924729551cc2e0a04c29686d305771ff3553054d3a49394ee4fa51a4",
+        "f61063f65593038ed0d2a05b91cb9682fa4d35805ff454c57cef911cc7195994",
+        "cff87ecd4048c14c04f137815558d0eb8af131245442641c7db68ddee4a29745"
+      ],
+      "EditableAxes": 4,
+      "EditableLines": 0,
+      "EditableImages": 4
+    },
+    {
+      "Name": "05_sensitivity",
+      "Caption": "Seven completed configurations, 30 native policies per method and case. (a) Relative reduction in mean primary J against AROA: 100(mean AROA minus mean DFPQNO)/mean AROA. Circles/squares identify original/additional independent validation. Segments are saved paired bootstrap 95% intervals (5000 resamples), not simultaneous intervals. Filled markers denote saved Holm-adjusted significance; open markers denote nonsignificance. Risk weights is marked ns: its signed-rank contrast fails the saved Holm correction over all 154 comparisons. Absolute objectives under different weights are not pooled. (b) All DFPQNO native-policy minimum model exclusion-zone clearances, in centimetres on a log axis. Thick segments are nearest-rank IQRs; black ticks are medians. Small positive model margins are not allowances for GPS, wind or actuation errors.",
+      "AltText": "Most gain intervals are positive, risk-weighted intervals cross zero, and model clearance varies by case.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "equal_weights",
+          "PlotDataFile": "Application_Experiment/Results/equal_weights/plot_data.mat",
+          "PlotDataSHA256": "a0dfb560719b6f474120fcedb02942092cc0b53841e0d8964c8f1467c8116c8f",
+          "InputFiles": [
+            "Application_Experiment/Results/equal_weights/all_runs.mat",
+            "Application_Experiment/Results/equal_weights/analysis.mat",
+            "Application_Experiment/Results/equal_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "b365f2f83571d91e10e97b5e6d40fe9fbf5595bfa892e7ea9e25196aadf5bf2c",
+            "e3d7d18a6eede66df97effd4f0338cdf7f93dea7e36128650e8d8bdbf1b240cf",
+            "f2d959557219bc2b9a9c2e6980e8f9d0167149ca3ba2632ea370fc612e5ba4dd"
+          ],
+          "Token": "d83b52a5c13111107d70e8e5d1a11edff28df2bce4e44c117592264370e2b7fd",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "energy_weights",
+          "PlotDataFile": "Application_Experiment/Results/energy_weights/plot_data.mat",
+          "PlotDataSHA256": "00e43260fa35e7847855e93e0bab5f84a28eb7c06423d885401e9b7edbf68fc2",
+          "InputFiles": [
+            "Application_Experiment/Results/energy_weights/all_runs.mat",
+            "Application_Experiment/Results/energy_weights/analysis.mat",
+            "Application_Experiment/Results/energy_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "78d2315086fe919e6ac60c88fdaeff1cfac43f26845902e680ff819f08e619f9",
+            "9b473f4d49869abe7ae75c3f250ed2bf1cdcdb0014731d71b9e03f514c8ce0c0",
+            "329c9dd7444f952ded9441ae26cc6cf14661efb5c045262bb0c3cf3e98d0e232"
+          ],
+          "Token": "f98e0f8ea0a70d1d553e106431a54e3b7283acd5b1756eed816648bd70d98261",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "risk_weights",
+          "PlotDataFile": "Application_Experiment/Results/risk_weights/plot_data.mat",
+          "PlotDataSHA256": "bbe3c07c4c949585086017a493fa8efbd14364e2ac62e1d0469f175618a6f15b",
+          "InputFiles": [
+            "Application_Experiment/Results/risk_weights/all_runs.mat",
+            "Application_Experiment/Results/risk_weights/analysis.mat",
+            "Application_Experiment/Results/risk_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "3d982baaf583650c116102bcb2d6b83d256a2d1c3c7711ca180119b26ed27a13",
+            "00556c2e33943ff18f09ab7b384d6507d6cdaa357c17a9f49be03b19be4c15c9",
+            "bc14c6c33e609459c9cb73bfce879cf0b15418ffbbdb8b653fcb338f8bd1d4ca"
+          ],
+          "Token": "a3b93cbf7eab6439b4f38902a424f6ad69f540565757aa12e92686fed2151951",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_low",
+          "PlotDataFile": "Application_Experiment/Results/penalty_low/plot_data.mat",
+          "PlotDataSHA256": "344e7e8d3c93ddacfca930b99280c5e8b17f2fcb80fabc8956216b66beb69eba",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_low/all_runs.mat",
+            "Application_Experiment/Results/penalty_low/analysis.mat",
+            "Application_Experiment/Results/penalty_low/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "c17bdd05bd4aec8ec9feda5ebff2eb7d4544ecd021f372a53de33473d0c64603",
+            "195b665a321dc11a85e367ad566c39553b99c6be4d80dddc5705dd69bc59c50a",
+            "3ce5ccf74a8827940201b731898b5d3f80522a9caf9e6ab2d06bf30d04364241"
+          ],
+          "Token": "662992690676c8daf988fd0ed9a6c085f3e5ffc489a7ef73ba56211bc99ce166",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_high",
+          "PlotDataFile": "Application_Experiment/Results/penalty_high/plot_data.mat",
+          "PlotDataSHA256": "2bc790caa107f06a1ad6faa203eb100c6fcd005dbc0745421a496a1418f08839",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_high/all_runs.mat",
+            "Application_Experiment/Results/penalty_high/analysis.mat",
+            "Application_Experiment/Results/penalty_high/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "94e76d8d9262dd2f548bf610f28ed129d1511e4ebfcec48b53703eb3373efab4",
+            "d75fd490310ec50d2f8f32d413263a9341020842990f31c95a9f11d3629225b7",
+            "a2259f2809be254ed9ff124b4bd88e42868de8248ac63ba0a8c5baf09283b13e"
+          ],
+          "Token": "2e627aec2e08aa840e5b427116c1ea84f712fac6c5631acbf470aba3f771ba8c",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "measured_mobility",
+          "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+          "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+          "InputFiles": [
+            "Application_Experiment/Results/measured_mobility/all_runs.mat",
+            "Application_Experiment/Results/measured_mobility/analysis.mat",
+            "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+            "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+            "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+          ],
+          "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        7
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/05_sensitivity.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/05_sensitivity.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/05_sensitivity.png"
+      ],
+      "FileSHA256": [
+        "73646cdee5c8f34ba40c34e3ebf2abc840bc952b3d32d3af006dc154f5108515",
+        "04836701c3220e64bb2b9feaf3406a6c6915b1e4e01e8de8694b4f44414dd2c5",
+        "d85830f943a9f5a4f4d073a4e6f2c2fd420db72da48cf3b7af3df0edaf2cd646"
+      ],
+      "EditableAxes": 2,
+      "EditableLines": 51,
+      "EditableImages": 0
+    },
+    {
+      "Name": "06_serial_runtime",
+      "Caption": "Five fresh shared-seed serial search times per method, ordered by median. All points, min--max whiskers, nearest-rank IQR segments and median ticks are shown. Population input 40 and 750 generations use the saved single-thread workstation protocol; short warmups and post-search validation/saving are excluded. Search times include algorithm/objective instrumentation. Concurrent timings are not used. Local times exclude telemetry, mobility prediction, case construction, communication and actuation and do not establish onboard real-time performance.",
+      "AltText": "Twelve isolated timing distributions, with DFPQNO having the lowest median.",
+      "Sources": [
+        {
+          "CaseId": "serial_timing",
+          "PlotDataFile": "Application_Experiment/Results/serial_timing/20261013_230356_661/serial_timing.mat",
+          "PlotDataSHA256": "7b080eb2173c7bf6b8944b941a69c6a72119ace2effd392f46ab8b52c6d32447"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        7.4
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Main/06_serial_runtime.fig",
+        "Application_Experiment/Pictures/20261013_180558/Main/06_serial_runtime.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Main/06_serial_runtime.png"
+      ],
+      "FileSHA256": [
+        "0f2e0176c63942d1ae36874da218b39cf46047e1342821653e812511b1ebf993",
+        "2fed273218f5dae2f71890c600f53365285ade573dadab8de3f397ed2d71efa5",
+        "dfd793a1ffe110e772b2651170adae3ac8863f5c13b8c1eba29a7d74d6ecaeb2"
+      ],
+      "EditableAxes": 1,
+      "EditableLines": 48,
+      "EditableImages": 0
+    },
+    {
+      "Name": "S01_all_method_validation",
+      "Caption": "All 30 native baseline policies for all twelve methods on original/additional independent 100-scenario pools. Row order follows original-validation mean J and is preserved on the right. Points, min--max whiskers, nearest-rank IQR segments and medians are shown on log axes. Red crosses mark model infeasibility; no run is removed or replaced by an observer return. Primary J excludes penalties, so feasibility must be read alongside the objective.",
+      "AltText": "Two all-method validation distributions with infeasible native returns marked by red crosses.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        8.5
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S01_all_method_validation.fig",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S01_all_method_validation.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S01_all_method_validation.png"
+      ],
+      "FileSHA256": [
+        "778671c4376f8789766697dd6a6890449eee0dc28a3c29d1cdf0e634d5d05241",
+        "899aca6ad36d6d5710dcbf4f08bf30db3ac254d0eacd54df0ac22421ab2dd789",
+        "b9ee024c9f409a27597e74b7db18dc8d36788a085f6564c5775b61ce46748d4c"
+      ],
+      "EditableAxes": 2,
+      "EditableLines": 104,
+      "EditableImages": 0
+    },
+    {
+      "Name": "S02_within_case_ranks",
+      "Caption": "Ranks of across-seed mean native primary J within each configuration (1 is lowest, exact ties share average rank). Columns 1--7: baseline, equal weights, energy weights, risk weights, penalty 100, penalty 10000, recorded ground mobility. These are descriptive mean ranks, not Friedman ranks or a proof of significant dominance; risk-weighted DFPQNO--AROA remains nonsignificant after correction.",
+      "AltText": "Two twelve-method by seven-case mean-rank heatmaps, with DFPQNO at rank one throughout.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "equal_weights",
+          "PlotDataFile": "Application_Experiment/Results/equal_weights/plot_data.mat",
+          "PlotDataSHA256": "a0dfb560719b6f474120fcedb02942092cc0b53841e0d8964c8f1467c8116c8f",
+          "InputFiles": [
+            "Application_Experiment/Results/equal_weights/all_runs.mat",
+            "Application_Experiment/Results/equal_weights/analysis.mat",
+            "Application_Experiment/Results/equal_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "b365f2f83571d91e10e97b5e6d40fe9fbf5595bfa892e7ea9e25196aadf5bf2c",
+            "e3d7d18a6eede66df97effd4f0338cdf7f93dea7e36128650e8d8bdbf1b240cf",
+            "f2d959557219bc2b9a9c2e6980e8f9d0167149ca3ba2632ea370fc612e5ba4dd"
+          ],
+          "Token": "d83b52a5c13111107d70e8e5d1a11edff28df2bce4e44c117592264370e2b7fd",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "energy_weights",
+          "PlotDataFile": "Application_Experiment/Results/energy_weights/plot_data.mat",
+          "PlotDataSHA256": "00e43260fa35e7847855e93e0bab5f84a28eb7c06423d885401e9b7edbf68fc2",
+          "InputFiles": [
+            "Application_Experiment/Results/energy_weights/all_runs.mat",
+            "Application_Experiment/Results/energy_weights/analysis.mat",
+            "Application_Experiment/Results/energy_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "78d2315086fe919e6ac60c88fdaeff1cfac43f26845902e680ff819f08e619f9",
+            "9b473f4d49869abe7ae75c3f250ed2bf1cdcdb0014731d71b9e03f514c8ce0c0",
+            "329c9dd7444f952ded9441ae26cc6cf14661efb5c045262bb0c3cf3e98d0e232"
+          ],
+          "Token": "f98e0f8ea0a70d1d553e106431a54e3b7283acd5b1756eed816648bd70d98261",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "risk_weights",
+          "PlotDataFile": "Application_Experiment/Results/risk_weights/plot_data.mat",
+          "PlotDataSHA256": "bbe3c07c4c949585086017a493fa8efbd14364e2ac62e1d0469f175618a6f15b",
+          "InputFiles": [
+            "Application_Experiment/Results/risk_weights/all_runs.mat",
+            "Application_Experiment/Results/risk_weights/analysis.mat",
+            "Application_Experiment/Results/risk_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "3d982baaf583650c116102bcb2d6b83d256a2d1c3c7711ca180119b26ed27a13",
+            "00556c2e33943ff18f09ab7b384d6507d6cdaa357c17a9f49be03b19be4c15c9",
+            "bc14c6c33e609459c9cb73bfce879cf0b15418ffbbdb8b653fcb338f8bd1d4ca"
+          ],
+          "Token": "a3b93cbf7eab6439b4f38902a424f6ad69f540565757aa12e92686fed2151951",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_low",
+          "PlotDataFile": "Application_Experiment/Results/penalty_low/plot_data.mat",
+          "PlotDataSHA256": "344e7e8d3c93ddacfca930b99280c5e8b17f2fcb80fabc8956216b66beb69eba",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_low/all_runs.mat",
+            "Application_Experiment/Results/penalty_low/analysis.mat",
+            "Application_Experiment/Results/penalty_low/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "c17bdd05bd4aec8ec9feda5ebff2eb7d4544ecd021f372a53de33473d0c64603",
+            "195b665a321dc11a85e367ad566c39553b99c6be4d80dddc5705dd69bc59c50a",
+            "3ce5ccf74a8827940201b731898b5d3f80522a9caf9e6ab2d06bf30d04364241"
+          ],
+          "Token": "662992690676c8daf988fd0ed9a6c085f3e5ffc489a7ef73ba56211bc99ce166",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_high",
+          "PlotDataFile": "Application_Experiment/Results/penalty_high/plot_data.mat",
+          "PlotDataSHA256": "2bc790caa107f06a1ad6faa203eb100c6fcd005dbc0745421a496a1418f08839",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_high/all_runs.mat",
+            "Application_Experiment/Results/penalty_high/analysis.mat",
+            "Application_Experiment/Results/penalty_high/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "94e76d8d9262dd2f548bf610f28ed129d1511e4ebfcec48b53703eb3373efab4",
+            "d75fd490310ec50d2f8f32d413263a9341020842990f31c95a9f11d3629225b7",
+            "a2259f2809be254ed9ff124b4bd88e42868de8248ac63ba0a8c5baf09283b13e"
+          ],
+          "Token": "2e627aec2e08aa840e5b427116c1ea84f712fac6c5631acbf470aba3f771ba8c",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "measured_mobility",
+          "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+          "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+          "InputFiles": [
+            "Application_Experiment/Results/measured_mobility/all_runs.mat",
+            "Application_Experiment/Results/measured_mobility/analysis.mat",
+            "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+            "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+            "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+          ],
+          "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        8.8
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S02_within_case_ranks.fig",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S02_within_case_ranks.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S02_within_case_ranks.png"
+      ],
+      "FileSHA256": [
+        "f3ba1de4906196508cb158ecb71edbfff4f62063106e61acab206e197f2dd8bc",
+        "252cbc6c8c37a1b12981a53a10296e65eb5c7c7f3c5662e96aa26eee85f317e8",
+        "cd04b43e8e5323ffc036abeb16bef5594cc2f2701cbdd73e2b382c3ac6db1404"
+      ],
+      "EditableAxes": 2,
+      "EditableLines": 0,
+      "EditableImages": 2
+    },
+    {
+      "Name": "S03_all_method_components",
+      "Caption": "Baseline original-validation components for all 30 native policies from twelve methods. Key (unchanged across panels): 1 DFPQNO, 2 AROA, 3 BBO, 4 BKA, 5 GJA, 6 HBO, 7 IVYA, 8 mLSHADE-SPACMA, 9 NDO, 10 NRBO, 11 SSLO, 12 TOC. Points include all runs; thin whiskers span min--max, thick lines span nearest-rank IQR and black ticks mark medians. Red crosses flag model-infeasible returns. Completion is a percentage; fairness/CVaR are dimensionless. Each panel uses its stated range.",
+      "AltText": "Six distribution panels show the full twelve-method physical performance and model feasibility.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        10.2
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S03_all_method_components.fig",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S03_all_method_components.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S03_all_method_components.png"
+      ],
+      "FileSHA256": [
+        "4a9f6486f5c94f025751e3d3151f40dad2c6f99f1bd073ae9adb27f90683589b",
+        "4234624d44447c72fd172fa01c714210684d19e9e8ece9e36b06179493c51dfc",
+        "d7ee92b64922deeb48df8eab05770d644850622d4c94189bc41f15d6c1f0573e"
+      ],
+      "EditableAxes": 6,
+      "EditableLines": 312,
+      "EditableImages": 0
+    },
+    {
+      "Name": "S04_all_case_convergence",
+      "Caption": "Across-seed median native penalized training objectives for twelve methods in all seven cases, 30 shared optimizer seeds and 750 complete generations. Blue shading is DFPQNO nearest-rank IQR. All vertical axes are log-scaled and independently chosen per case. Absolute objectives under different preference weights are not compared. Colors and line patterns are consistent across panels.",
+      "AltText": "Seven twelve-method convergence panels and a two-column method key.",
+      "Sources": [
+        {
+          "CaseId": "baseline",
+          "PlotDataFile": "Application_Experiment/Results/baseline/plot_data.mat",
+          "PlotDataSHA256": "bbc48ca804c74b90a74b1848c23a6ae885bc1f09ebc5a07275fd7376533a39c9",
+          "InputFiles": [
+            "Application_Experiment/Results/baseline/all_runs.mat",
+            "Application_Experiment/Results/baseline/analysis.mat",
+            "Application_Experiment/Results/baseline/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "1e7e174a7a21c6f8812e083199ebe4ed03772db09584e84007d62e3ff0d52516",
+            "acde2378f5617e6074c47817e507504d75f4bcb53f6fad2c2f027c5459c88cf5",
+            "ef9480f2abb9ace3eabd534cc1f714cca78c35654bfcc32e8c0669dbea378ae0"
+          ],
+          "Token": "4389d5227c57bcf97b8d16f427187feec20106dfd13dd6c2e0e324d5deef6405",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "equal_weights",
+          "PlotDataFile": "Application_Experiment/Results/equal_weights/plot_data.mat",
+          "PlotDataSHA256": "a0dfb560719b6f474120fcedb02942092cc0b53841e0d8964c8f1467c8116c8f",
+          "InputFiles": [
+            "Application_Experiment/Results/equal_weights/all_runs.mat",
+            "Application_Experiment/Results/equal_weights/analysis.mat",
+            "Application_Experiment/Results/equal_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "b365f2f83571d91e10e97b5e6d40fe9fbf5595bfa892e7ea9e25196aadf5bf2c",
+            "e3d7d18a6eede66df97effd4f0338cdf7f93dea7e36128650e8d8bdbf1b240cf",
+            "f2d959557219bc2b9a9c2e6980e8f9d0167149ca3ba2632ea370fc612e5ba4dd"
+          ],
+          "Token": "d83b52a5c13111107d70e8e5d1a11edff28df2bce4e44c117592264370e2b7fd",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "energy_weights",
+          "PlotDataFile": "Application_Experiment/Results/energy_weights/plot_data.mat",
+          "PlotDataSHA256": "00e43260fa35e7847855e93e0bab5f84a28eb7c06423d885401e9b7edbf68fc2",
+          "InputFiles": [
+            "Application_Experiment/Results/energy_weights/all_runs.mat",
+            "Application_Experiment/Results/energy_weights/analysis.mat",
+            "Application_Experiment/Results/energy_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "78d2315086fe919e6ac60c88fdaeff1cfac43f26845902e680ff819f08e619f9",
+            "9b473f4d49869abe7ae75c3f250ed2bf1cdcdb0014731d71b9e03f514c8ce0c0",
+            "329c9dd7444f952ded9441ae26cc6cf14661efb5c045262bb0c3cf3e98d0e232"
+          ],
+          "Token": "f98e0f8ea0a70d1d553e106431a54e3b7283acd5b1756eed816648bd70d98261",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "risk_weights",
+          "PlotDataFile": "Application_Experiment/Results/risk_weights/plot_data.mat",
+          "PlotDataSHA256": "bbe3c07c4c949585086017a493fa8efbd14364e2ac62e1d0469f175618a6f15b",
+          "InputFiles": [
+            "Application_Experiment/Results/risk_weights/all_runs.mat",
+            "Application_Experiment/Results/risk_weights/analysis.mat",
+            "Application_Experiment/Results/risk_weights/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "3d982baaf583650c116102bcb2d6b83d256a2d1c3c7711ca180119b26ed27a13",
+            "00556c2e33943ff18f09ab7b384d6507d6cdaa357c17a9f49be03b19be4c15c9",
+            "bc14c6c33e609459c9cb73bfce879cf0b15418ffbbdb8b653fcb338f8bd1d4ca"
+          ],
+          "Token": "a3b93cbf7eab6439b4f38902a424f6ad69f540565757aa12e92686fed2151951",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_low",
+          "PlotDataFile": "Application_Experiment/Results/penalty_low/plot_data.mat",
+          "PlotDataSHA256": "344e7e8d3c93ddacfca930b99280c5e8b17f2fcb80fabc8956216b66beb69eba",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_low/all_runs.mat",
+            "Application_Experiment/Results/penalty_low/analysis.mat",
+            "Application_Experiment/Results/penalty_low/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "c17bdd05bd4aec8ec9feda5ebff2eb7d4544ecd021f372a53de33473d0c64603",
+            "195b665a321dc11a85e367ad566c39553b99c6be4d80dddc5705dd69bc59c50a",
+            "3ce5ccf74a8827940201b731898b5d3f80522a9caf9e6ab2d06bf30d04364241"
+          ],
+          "Token": "662992690676c8daf988fd0ed9a6c085f3e5ffc489a7ef73ba56211bc99ce166",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "penalty_high",
+          "PlotDataFile": "Application_Experiment/Results/penalty_high/plot_data.mat",
+          "PlotDataSHA256": "2bc790caa107f06a1ad6faa203eb100c6fcd005dbc0745421a496a1418f08839",
+          "InputFiles": [
+            "Application_Experiment/Results/penalty_high/all_runs.mat",
+            "Application_Experiment/Results/penalty_high/analysis.mat",
+            "Application_Experiment/Results/penalty_high/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "94e76d8d9262dd2f548bf610f28ed129d1511e4ebfcec48b53703eb3373efab4",
+            "d75fd490310ec50d2f8f32d413263a9341020842990f31c95a9f11d3629225b7",
+            "a2259f2809be254ed9ff124b4bd88e42868de8248ac63ba0a8c5baf09283b13e"
+          ],
+          "Token": "2e627aec2e08aa840e5b427116c1ea84f712fac6c5631acbf470aba3f771ba8c",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        },
+        {
+          "CaseId": "measured_mobility",
+          "PlotDataFile": "Application_Experiment/Results/measured_mobility/plot_data.mat",
+          "PlotDataSHA256": "6b339286405f1ce86973032ec85d0a967c54701f7aa4aa37ac4c9cef3cd0d76e",
+          "InputFiles": [
+            "Application_Experiment/Results/measured_mobility/all_runs.mat",
+            "Application_Experiment/Results/measured_mobility/analysis.mat",
+            "Application_Experiment/Results/measured_mobility/fixed_instance.mat"
+          ],
+          "InputSHA256": [
+            "19902dfaf484ed02a84805a681b68e0c1ce8709f127ba4983333d3ee8897ea01",
+            "ac4c7e1ebbe1cfab2a7782531a4d873cba3aced7d6d20b57f90b0acf0675d428",
+            "b31febe08b7456a6851ab4c35e08bf374e84b91a22f51e5c5f084224e562c000"
+          ],
+          "Token": "61f6de32826aa0492dcbbd5bbd778f7b21334808f8cffe80a6a1f430fe6309e3",
+          "TargetSourceSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9"
+        }
+      ],
+      "FinalSize_cm": [
+        12.2,
+        11.7
+      ],
+      "Files": [
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S04_all_case_convergence.fig",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S04_all_case_convergence.pdf",
+        "Application_Experiment/Pictures/20261013_180558/Supplementary/S04_all_case_convergence.png"
+      ],
+      "FileSHA256": [
+        "5299c0e5fa38e022fd7770feffb4e900f7273794af9c71162130749fa96f6780",
+        "b9d2b15cf515b0d3aaa3320754382efa1109f78e6894a7bdcbac491d41a91d93",
+        "b3d4af0444e3840856ce9438d9a9f0a35a195b295065e24c5a014586479f8b68"
+      ],
+      "EditableAxes": 9,
+      "EditableLines": 96,
+      "EditableImages": 0
+    }
+  ],
+  "OptimizationCalls": 0,
+  "ModelEvaluationCalls": 0,
+  "StatisticalTestsRerun": 0,
+  "RNGUnchanged": true,
+  "DataFilesChanged": false,
+  "NativeFIGReopened": true,
+  "StyleReference": "Nature/Science aesthetics adapted to compact 122 mm manuscript width",
+  "PublisherComplianceVerified": false
+}

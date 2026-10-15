@@ -1,0 +1,47 @@
+CEC2017 final integration: one new fusion candidate plus the unchanged original seven-method ablation panel (7 original methods); N=30, MaxIt=750, and 30 paired independent runs.
+Final method: Fusion: uniform/opposition initialization, inverse-square-root dimension guidance, no success-memory feedback
+Version token: FusionFinal:9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9
+Result version policy: Only current-run results with matching versionToken and active source hashes identify this final method; earlier results retain their original labels and must not be combined across versions.
+Study interpretation: Original seven-method ablation panel unchanged, plus one new fusion candidate; candidate-versus-control contrasts compare algorithm versions rather than isolated removals from the candidate. The original removals are defined relative to Original Full. Candidate-versus-control p-values compare versions; they cannot identify an isolated contribution to the fusion.
+CEC2017 functions [1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30]; dimensions [10 30 50 100]; bounds[-100,100]; optimum100*F.
+Shared seeds: 127955229+configOffset*30*12+run. All 8 algorithms share the same seed for each function, dimension and run; original 12-method target-column offsets are preserved.
+Native raw objective values drive optimization and exact paired differences. Full-precision f(x)-f* drives all statistical ranks and Sheet1. Display error below1e-8 is zeroed only for figures/display exports.
+Sheet2: common-seed per-function ranks. Sheet3: raw paired signed-rank p and rank direction. Sheet4: Holm-corrected paired tests. Sheet5: matched rank-biserial effects. Sheet6: function-block ranks and Friedman.
+Exact paired signed-rank on native objective differences; Holm across all 29 functions and 7 DFPQNO-versus-control contrasts (203 tests per dimension). One predefined Holm family per dimension.
+Figure export enabled: 0. Optimization and numerical statistics are independent of this setting.
+Paired signed-rank uses eps(native reference)+eps(native variant), exactly tied nonzero absolute differences share ranks, exact conditional sign-flip distribution, two-sided inclusive tails. Nonsignificance is not equivalence.
+No FE stopping or evaluation-budget comparison. UniformInit evaluates N initial candidates; all other algorithms evaluate2N. Every iteration evaluatesN offspring forT iterations; batch callsT+1. One returned-policy replay is post-search and excluded from search counts. Observers add no random draw or search objective call.
+Raw MAT includes source hashes, actual per-run callback diagnostics and every seed. Results use the Results folder beside this entry; temporary cluster process storage uses D:. Native MEX and its input_data folder remain in this user suite folder.
+Timings include concurrent scheduling and passive witness overhead; no claim of isolated fastest runtime. The paired signed-rank test assumes independent run seeds and a symmetric paired-difference null.
+
+DFPQNO
+New fusion candidate added to the unchanged original panel. Relative to previous-best FixedMemory, replace lattice initialization by N uniform candidates plus opposition screening, and change directional weight from 1/dim to 1/sqrt(dim). Retain slope, diagonal DFP, archive and phi-centered Cauchy scales; success memory remains absent. Complete performance is to be measured.
+Source:Ablation_Study\DFPQNO.m
+
+DFPQNO_Full
+Original complete algorithm, preserved byte-for-byte from the previous seven-method experiment: lattice/opposition initialization, population slope, diagonal DFP, archive, success-history scale memory, Cauchy perturbation and 1/dim directional weight. This is the original ablation reference, not an alias of the fusion.
+Source:Ablation_Study\DFPQNO_Full.m
+
+DFPQNO_UniformInit
+Original Full-based control: replace lattice/opposition initialization and 2N screening by N independent uniform candidates. Retain original success memory, Cauchy perturbation, slope, DFP, archive and 1/dim directional weight.
+Source:Ablation_Study\DFPQNO_UniformInit.m
+
+DFPQNO_NoCurvature
+Original Full-based control: delete diagonal curvature and DFP updates; use the population slope directly through clip(-g). Retain original success memory and other original mechanisms. This is not a single deletion from the new fusion.
+Source:Ablation_Study\DFPQNO_NoCurvature.m
+
+DFPQNO_NoArchive
+Original Full-based control: delete the displaced-parent archive and use current population donors. Retain original success memory and other original mechanisms. This is not a single deletion from the new fusion.
+Source:Ablation_Study\DFPQNO_NoArchive.m
+
+DFPQNO_FixedMemory
+Previous measured-best original ablation version: delete success-history feedback while retaining lattice/opposition initialization, phi-centered Cauchy perturbation, slope, DFP, archive and 1/dim guidance. Retained unchanged to measure whether the new fusion improves on it.
+Source:Ablation_Study\DFPQNO_FixedMemory.m
+
+DFPQNO_NoSlope
+Original Full-based grouped control: delete population-slope estimation and its dependent diagonal DFP state and directional-guidance branch. Retain original success memory, Cauchy perturbation, archive and differential search; this does not isolate slope independently of DFP.
+Source:Ablation_Study\DFPQNO_NoSlope.m
+
+DFPQNO_FixedScale
+Original Full-based joint control: replace adaptive Cauchy scales by constant phi; delete both success-history memory and Cauchy perturbation. Retain original slope, DFP, archive, lattice/opposition initialization and 1/dim guidance. The historical source is unchanged; this does not isolate Cauchy perturbation alone.
+Source:Ablation_Study\DFPQNO_FixedScale.m

@@ -1,0 +1,50 @@
+CEC2017: F1-F30 except F2; dimensions 10/30/50/100; bounds [-100,100].
+Raw objectives drive optimization. Statistics use f(x)-f*. Errors below 1e-8 are recorded as zero.
+Convergence: across-run arithmetic mean error on a logarithmic axis; zero is displayed at the labeled floor.
+Left surface: raw objective slice with all coordinates after x2 fixed to zero. Box plots: final-run errors.
+Sheet1: basic error statistics. Sheet2: original per-function Friedman mean ranks across run rows, Average and Rank.
+Sheet3: original unadjusted two-sided rank-sum p-values and signs using mean-error direction.
+Sheet4: two-sided rank-sum p-values corrected by Holm over all functions/opponents WITHIN EACH dimension.
+Sheet5: rank effects P(target<opponent)-P(target>opponent).
+Sheet6: across-run mean-error ranks and overall Friedman test with functions as blocks. Radar uses these same ranks.
+Sheet2 retains the original descriptive run-row ranks; use the function-block test in Sheet6 for overall inference.
+Win/loss require adjusted p<0.05 and a positive/negative rank effect. Tie means no detected significant difference, not equivalence.
+Overall win/tie/loss counts describe the sum across dimensions; they are not an additional global significance test.
+The horizontal radar panels follow the dimension order in the experiment manifest.
+Comparator implementations use the common six-input interface; original algorithm mechanisms and any adaptations are documented in the experiment manifest.
+
+DFPQNO |  | DOI:  | NaN
+Target algorithm in the current CEC2017 experiment.
+
+AROA |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+BBO |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+BKA |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+GJA |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+HBO |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+IVYA |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+mLSHADE_SPACMA |  | DOI:  | NaN
+Modified LSHADE-SPACMA; author MATLAB implementation adapted to the common six-input interface; function evaluation budget and bounds adapted; numerical equivalence not yet verified.
+
+NDO |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+NRBO | Engineering Applications of Artificial Intelligence | DOI: 10.1016/j.engappai.2023.107532 | 2024
+Original user NRBO.m preserved byte-for-byte; 2024 journal paper, explicitly retained.
+
+SSLO |  | DOI:  | NaN
+User-selected implementation; record source and modifications.
+
+TOC |  | DOI:  | NaN
+User-selected implementation; record source and modifications.

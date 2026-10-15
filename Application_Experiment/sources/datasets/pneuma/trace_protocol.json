@@ -1,0 +1,58 @@
+{
+  "version": "paper130_pneuma_input_v1",
+  "source_doi": "10.5281/zenodo.10491409",
+  "license": "CC-BY-4.0",
+  "source_file": "Application_Experiment/sources/datasets/pneuma/raw/20181024_d6_0830_0900.csv",
+  "source_sha256": "ed5c54c5791cc8f7796255a82c93dd886233e5745096ac4e3bb52f5c1fac5bd0",
+  "csv_header": "track_id; type; traveled_d; avg_speed; lat; lon; speed; lon_acc; lat_acc; time",
+  "tracks_with_150s_coverage": 568,
+  "selection_rule": "Earliest 10-second-grid 150-second interval with at least eight valid concurrent vehicle tracks whose resampled displacement sums to at least 20m; take eight lowest original track IDs. No optimizer results were inspected for selection.",
+  "window_start_s": 0,
+  "window_end_s": 150,
+  "eligible_tracks_at_selected_window": 14,
+  "track_ids": [
+    26,
+    27,
+    87,
+    88,
+    89,
+    93,
+    116,
+    124
+  ],
+  "vehicle_types": [
+    "Car",
+    "Heavy Vehicle",
+    "Bus",
+    "Medium Vehicle",
+    "Bus",
+    "Car",
+    "Car",
+    "Car"
+  ],
+  "resampling": "linear interpolation within original observed time interval; no extrapolation",
+  "coordinate_mapping": "WGS84 latitude/longitude to spherical local tangent approximation R=6371000m about common mean coordinates; only translate scene center to (1000,1000)m, no distance/time scaling",
+  "anchor_latitude_deg": 37.986250226562504,
+  "anchor_longitude_deg": 23.72930753125,
+  "position_ranges_m": {
+    "x": [
+      851.9307923381435,
+      1099.3363216700454
+    ],
+    "y": [
+      765.6870969592533,
+      1259.0589864806939
+    ]
+  },
+  "mean_resampled_path_length_m": 228.52434684779215,
+  "measured": "Ground vehicle trajectories",
+  "still_simulated": "UAV path and constraints, wireless channel, task data size/cycles, device compute and energy",
+  "limitations": [
+    "One district/time segment; long-coverage/moving eligibility selects retained vehicles, not a random city sample",
+    "Vehicles are mobile-user proxies; no phone workload logging",
+    "Resampled points are derived, not independent GPS observations",
+    "Original synthetic safety zones are not Athens measured no-fly zones",
+    "Future ground trajectories known to offline optimizer; not prediction or live flight"
+  ],
+  "processed_sha256": "69e840fb7c506b11aab24106e970225ac2a71da01c72712c5218ce729fe25ba8"
+}

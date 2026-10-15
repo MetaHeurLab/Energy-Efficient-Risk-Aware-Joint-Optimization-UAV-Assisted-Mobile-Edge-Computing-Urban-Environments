@@ -1,0 +1,46 @@
+{
+  "Status": "complete",
+  "CaseId": "serial_timing",
+  "StudyId": "20261013_180558",
+  "Token": "fc2bcc46312e7f9690fa0c36beda8c7567584641e0720a3eac78e5a6ac0e31b8",
+  "Methods": [
+    "DFPQNO",
+    "AROA",
+    "BBO",
+    "BKA",
+    "GJA",
+    "HBO",
+    "IVYA",
+    "mLSHADE_SPACMA",
+    "NDO",
+    "NRBO",
+    "SSLO",
+    "TOC"
+  ],
+  "FormalRecipes": 60,
+  "WarmupRecipes": 12,
+  "WarmupExcluded": true,
+  "RunsPerMethod": 5,
+  "PrimaryClock": "SearchRuntime_s",
+  "PostSearchChecksExcludedFromPrimaryClock": true,
+  "NoParallelWorkers": true,
+  "Platform": {
+    "MATLABVersion": "26.1.0.3346908 (R2026a) Update 5",
+    "MATLABRelease": "2026a",
+    "Architecture": "win64",
+    "OperatingSystem": "Windows_NT",
+    "ProcessorIdentifier": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "LogicalProcessors": 24,
+    "ComputationThreadsRequested": 1,
+    "ParallelPoolAbsent": true
+  },
+  "NoOnboardRealtimeClaim": true,
+  "UnmeasuredCosts": [
+    "Communication",
+    "Prediction",
+    "Online scenario construction",
+    "Trajectory/resource execution",
+    "Onboard hardware scheduling"
+  ],
+  "FiguresCreated": 0
+}
