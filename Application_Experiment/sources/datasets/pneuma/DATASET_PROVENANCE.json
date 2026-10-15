@@ -1,0 +1,15 @@
+{
+  "OfficialRecord": "https://zenodo.org/records/10491409",
+  "OfficialDataNotes": "https://zenodo.org/records/10491409/files/README.html",
+  "RawFile": "raw/20181024_d6_0830_0900.csv",
+  "RawBytes": 492760287,
+  "RawSHA256": "ed5c54c5791cc8f7796255a82c93dd886233e5745096ac4e3bb52f5c1fac5bd0",
+  "ProcessedFile": "user_positions.csv",
+  "ProcessedSHA256": "69e840fb7c506b11aab24106e970225ac2a71da01c72712c5218ce729fe25ba8",
+  "ProtocolFile": "trace_protocol.json",
+  "ProtocolSHA256": "4bf2ac60fdba84b11e0f02ef4d4745aba69909a0806c52c072cf17a8d1db6062",
+  "Measured": "Ground vehicle positions only",
+  "Simulated": "UAV, workloads, channels, safety and energy",
+  "NoOptimizerBasedTraceSelection": true,
+  "OriginalSourceReadOnly": true
+}

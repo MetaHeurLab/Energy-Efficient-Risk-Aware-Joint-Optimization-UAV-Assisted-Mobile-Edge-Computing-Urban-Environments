@@ -1,0 +1,12 @@
+{
+  "mLSHADE_SPACMA-BSD-3-Clause.txt": {
+    "source": "https://addons.mathworks.com/downloads/6f/6f2b0ce0-f186-45c5-95ba-6639342ad1f3/1.0.0/license.txt",
+    "bytes": 1467,
+    "sha256": "c16e65ca56362430aec19c0ba51b3e0100c5b0626ac4c6a26e5a59d6e1148b74"
+  },
+  "NRBO-BSD-3-Clause.txt": {
+    "source": "https://addons.mathworks.com/downloads/1e/1e6c4825-7dd4-4436-aa94-0029aa6e237b/1.0.1/license.txt",
+    "bytes": 1513,
+    "sha256": "cb4f9b8dda79b00ee416afd3718ff6ef63f3df6ce5f6e729cdd1a62a6ed34142"
+  }
+}

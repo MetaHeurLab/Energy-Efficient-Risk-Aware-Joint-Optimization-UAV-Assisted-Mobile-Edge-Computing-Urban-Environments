@@ -1,0 +1,98 @@
+[
+  {
+    "Method": "DFPQNO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/DFPQNO.m",
+    "BenchmarkSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9",
+    "ExecutedSource": "Application_Experiment/algorithms/DFPQNO.m",
+    "ExecutedSHA256": "9f8e1034011b3330a8531b4136917970e007818783721976199f3264bcedfed9",
+    "Adaptation": "Byte-identical benchmark core; generation witnesses obtained from objective batches"
+  },
+  {
+    "Method": "AROA",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/AROA.m",
+    "BenchmarkSHA256": "5207e17c0b871f0a85f90352fdab64d0c0f4e266884642bcd1e764bb3b37b79a",
+    "ExecutedSource": "Application_Experiment/algorithms/AROA.m",
+    "ExecutedSHA256": "1a24fe96b3a7c7ca7bd32de5f2cf19e109b242065f81e8a58e39218b69eb648b",
+    "Adaptation": "Second input adapted from FE ceiling to complete generations; no FE cap or history padding; generation witness added"
+  },
+  {
+    "Method": "BBO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/BBO.m",
+    "BenchmarkSHA256": "6b72d85ac96251c3d831327bc2558f9f60d7df308ac7599ecb2d99684756a545",
+    "ExecutedSource": "Application_Experiment/algorithms/BBO.m",
+    "ExecutedSHA256": "3782af08734f7781f0af7a36e587ab9c5bbe601b47bf28d81ef99240655b5820",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "BKA",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/BKA.m",
+    "BenchmarkSHA256": "ee2880824d63387b990b7ae177057bb231503e22476674b0545baa9f2b52d962",
+    "ExecutedSource": "Application_Experiment/algorithms/BKA.m",
+    "ExecutedSHA256": "8119b3fe10cc9217ec64f66413f0c9842f23cc46ac2995ecb7a8b24fb2bc9575",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "GJA",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/GJA.m",
+    "BenchmarkSHA256": "cd4d4ea04941c3f99ce5649de25b0660dec14fa1f1a4fec8a4110a120d70d9ba",
+    "ExecutedSource": "Application_Experiment/algorithms/GJA.m",
+    "ExecutedSHA256": "ac3a54944bf4481a671c2de5c6af6fabee7a8070f04f4c093f8ac03de9bbf007",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "HBO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/HBO.m",
+    "BenchmarkSHA256": "cb7a11976c95591b6e903db95e1052d5ef25f26bd4260f7aef2f181ff22927a6",
+    "ExecutedSource": "Application_Experiment/algorithms/HBO.m",
+    "ExecutedSHA256": "be00cba1664513a78ee5a4be529efda961dff8cd22efbfe33e9ff03fa58b350e",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "IVYA",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/IVYA.m",
+    "BenchmarkSHA256": "2706055f8c772f7f5fde4788e8ac9e77fd899c797ef543aec1d9b1db029260fb",
+    "ExecutedSource": "Application_Experiment/algorithms/IVYA.m",
+    "ExecutedSHA256": "9cf83f7a3d1128fb458a37769689449da07fcce0cf37c525d493123dfd8d8385",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "mLSHADE_SPACMA",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/mLSHADE_SPACMA.m",
+    "BenchmarkSHA256": "0f9229a281dfbb255d8f47c480ee53900aac6dcbcb4d82f2bf4c3ae7791a959b",
+    "ExecutedSource": "Application_Experiment/algorithms/mLSHADE_SPACMA.m",
+    "ExecutedSHA256": "a9b66a7b7e8ea2f636c45d58c7b776db589c9380383ec8fc71ce7f5ad90492c2",
+    "Adaptation": "Second input adapted to complete generations; population/stage schedule uses generation progress; internal population reduction retained; generation witness added"
+  },
+  {
+    "Method": "NDO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/NDO.m",
+    "BenchmarkSHA256": "f3475ec17b623fe9e0e3ba932c88c158f7456142a4387eb6e3a89bd3701d7395",
+    "ExecutedSource": "Application_Experiment/algorithms/NDO.m",
+    "ExecutedSHA256": "b8f548f26754869457cf2b6c7d47f0c8c65a04eb62be222cf281b40dbfa22388",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "NRBO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/NRBO.m",
+    "BenchmarkSHA256": "e1b100a5242983fd34adac0c9afea2a8340142c18bfa3cd958de6114fac560f8",
+    "ExecutedSource": "Application_Experiment/algorithms/NRBO.m",
+    "ExecutedSHA256": "b34bcb3fddfb8e89e42cdd78f1d9587e6a0e59353f098161c13625e5ceed1a53",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "SSLO",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/SSLO.m",
+    "BenchmarkSHA256": "6e7c209db5026a4b23efc6b3515bb4428625c9c9e0ca980f730a61fce67938a5",
+    "ExecutedSource": "Application_Experiment/algorithms/SSLO.m",
+    "ExecutedSHA256": "b30c46e9b52a4dfb77af608d8f16ad141f65a6e9d836b145758c80a2238bce8c",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  },
+  {
+    "Method": "TOC",
+    "BenchmarkSource": "Benchmark_Experiments/CEC2022/TOC.m",
+    "BenchmarkSHA256": "ac04d26dc2aff3b1df9783d38a88f2b17878ddcb9617afb7353279d1d9e201e1",
+    "ExecutedSource": "Application_Experiment/algorithms/TOC.m",
+    "ExecutedSHA256": "62fcd5b46b1a93269169e71c56b9123fe7204a4fd2d405f74eff4db14014b83e",
+    "Adaptation": "Native numerical code unchanged; one non-random generation witness added"
+  }
+]
